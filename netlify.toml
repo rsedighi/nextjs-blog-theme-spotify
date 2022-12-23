@@ -11,5 +11,9 @@
   [plugins.inputs.postBuild]
     enable = true
 
-  [plugins.inputs]
-    enable = false
+[plugins.inputs]
+  enable = false
+
+[[edge_functions]]
+  path = "/weater"
+  function = "weather"
