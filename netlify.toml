@@ -17,3 +17,11 @@
 [[edge_functions]]
   path = "/weater"
   function = "weather"
+
+[[redirects]]
+  from = "/old-path"
+  to = "/"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
